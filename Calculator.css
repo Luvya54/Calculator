@@ -1,0 +1,96 @@
+#calculator{
+    display:grid;
+    width: 240px;
+    height: 235px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "title title title title" 
+    "display display display display"
+    "one two three equal"
+    "four five six add"
+    "seven eight nine sub"
+    "div zero mul percentage"
+    "clear clear clear clear"
+    ;
+}
+h1{
+    grid-area: title;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+
+}
+#display{
+    grid-area: display;
+    background-color:aquamarine ;
+    font-size: 22px;
+}
+#one{
+    grid-area: one;
+    background-color:darkblue ;
+}
+#two{
+    grid-area: two;
+    background-color:yellow ;
+}
+#three{
+    grid-area: three;
+    background-color:lightgreen ;
+}
+#equal{
+    grid-area: equal;
+    background-color:red ;
+}
+#four{
+    grid-area: four;
+    background-color:darkblue ;
+}
+#five{
+    grid-area: five;
+    background-color:yellow ;
+}
+#six{
+    grid-area: six;
+    background-color:lightgreen ;
+}
+#add{
+    grid-area: add;
+    background-color:red ;
+}
+#seven{
+    grid-area: seven;
+    background-color:darkblue ;
+}
+#eight{
+    grid-area: eight;
+    background-color:yellow ;
+}
+#nine{
+    grid-area: nine;
+    background-color:lightgreen
+}
+#sub{
+    grid-area: sub;
+    background-color:red ;
+}
+#div{
+    grid-area: div;
+    background-color:darkblue ;
+}
+#zero{
+    grid-area: zero;
+    background-color:yellow ;
+}
+#mul{
+    grid-area: mul;
+    background-color:lightgreen ;
+}
+#per{
+    grid-area: percentage;
+    background-color:white;
+}
+#clear{
+    grid-area: clear;
+    background-color:orange ;
+}
